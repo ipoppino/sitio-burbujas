@@ -1,0 +1,268 @@
+.navbar navbar-light{
+
+    .navbar-brand{
+
+        .navbar-toggler{
+
+         }
+
+        .navbar-toggler-icon{
+
+         }
+
+    }
+
+    .collapse navbar-collapse{
+
+        .navbar-nav mr-auto{
+
+            .nav-item active{
+
+                background-color: rgb(152, 207, 255);
+
+                .nav-link{
+
+                }
+            }
+
+            .nav-item{
+
+                .nav-link{
+
+                 }
+            }
+        }
+    }
+
+}
+
+.carousel-slide{
+    margin-top: 10vh;
+	margin-bottom: 10vh;
+	margin-left: 20vh;
+	margin-right: 20vh;
+	height: 40vh;
+	width: 6vh;
+
+
+    .carousel-indicators{
+
+    }
+    .carousel-inner{
+
+        .carousel-item-active{
+
+            .carousel-caption d-none d-md-block{
+
+            }
+        }
+
+    .carousel-item{
+
+        .carousel-caption d-none d-md-block{
+
+        }
+    }
+    
+    .carousel-control-prev{
+
+        .carousel-control-prev-icon{
+
+        }
+
+        .sr-only{
+
+        }
+    }
+
+    .carousel-control-next{
+
+        .carousel-control-next-icon{
+
+        }
+
+        .sr-only{
+
+        }
+    }
+}
+
+.filtradorArticulos{
+    display: flex;
+	height: 2vh;
+	justify-content: center;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+.card-deck{
+    margin-left: 5vh;
+	margin-right: 5vh;
+	margin-top: 5vh;
+    margin-bottom: 5vh;
+    /*height: 400px;
+	width: 200px;
+	overflow: scroll;
+	padding-right: 20vh;
+	padding-left: 20vh;
+	padding-top: 200px;
+	padding-bottom: 200px;*/
+
+    .card {
+
+        .card-body{
+
+            .card-title{
+                /*height: 200px;
+                width: 200px;*/
+
+            }
+
+            .card-text{
+
+            }
+
+        }
+    }
+}
+
+.tituloTabla{
+    margin-left: 30vh;
+	margin-right: 30vh;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	text-align: center;
+	background:   #76c1ff;
+	border: 1px solid #034591;
+	font-weight: 25px;
+
+}
+
+.table table-striped table-hover{
+
+    .table-primary{
+        padding-left: 30vh;
+        padding-right: 30vh;
+
+    }
+
+    .table-info{
+
+    }
+}
+
+.tituloContacto{
+    margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 0vh;
+	text-align: center;
+
+}
+
+.formularioContacto{
+    padding-left: 10vh;
+    padding-right: 10vh;
+    background-color: antiquewhite !important;
+
+    .row{
+        margin-top: 20vh;
+        margin-bottom: 10vh;
+        margin-left: 20vh;
+        margin-right: 20vh;
+    }
+
+        .col{
+
+        }
+
+        .form-check{
+
+            .form-check-input{
+
+            }
+
+            .form-check-label{
+
+            }
+        }
+
+        .consulta{
+
+            .form-control{
+                background-color: antiquewhite;            }
+        }
+
+        .btn btn-primary{
+            /*height: 5vh;*/
+        }
+
+        .btn btn-warning{
+
+        }
+    }
+}
+.alert alert-info{
+
+    .selectorPagina{
+    margin-bottom: 3vh;
+	margin-top: -2.5vh;
+    margin-left: 10vh;
+    
+    }
+
+    .botonSubir{
+    margin-bottom: 1vh;
+	margin-top: -7vh;
+	margin-right: 42vh;
+	
+    }
+
+    .botonSubirSolo{
+    /*margin-bottom: 0vh;
+	margin-top: 0vh;
+	margin-left: 32vh;*/
+    }
+}
+
+.avisoProximamente{
+    margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	text-align: center;
+
+    .alert alert-warning{
+        height: 1vh;
+
+    }
+}
+
+.alert alert-success{
+    margin-bottom: -1vh;
+
+    .bannerPublicidad{
+        text-align: center;
+        margin-bottom: 1vh; 
+    }
+}
+
+$catalogos: Ala1, Alguicida1, BalanceadoGato, BalanceadoPerro, Balde1, Balerina1, BetunZapato1, Blem1, BolsaConsorcio1, BoyaPileta1, Ceras1, Clarificante1, Desodorante2, Desodorante3, Detergente3, DetergenteCif1, Escobas1, Esponja1, Focos1, Fuyi1, JabonAuto1, JabonManos1, Lavandina1, LimpiaTapizado1, Lisoform1, PapelHigienico2, Procenex1, Querubin, Raid2, Raid3, RenovadorGomas1, Sectisol1, Shampoo1, Silicona1, Suavizante2, Toallita1, Trapos1, Vivere;
+@each $catalogo in $catalogos {
+    .background-#{$catalogo} {
+        background-image: url(imagenes/#{$catalogo}.jpg);
+        max-width: 250px;
+        max-height: 200px;
+    }
+}
+
+.nav-item :hover{
+    background-color: rgb(152, 207, 255);
+}
+
+.nav-item active{
+    background-color: rgb(152, 207, 255);
+}
+
+
+
+
