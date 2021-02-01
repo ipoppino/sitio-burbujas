@@ -1,0 +1,174 @@
+.tituloBurbujas
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	text-align: center;
+	color: #000000;
+	background-color: #76c1ff;
+	font-size: 150%;
+	font-style: italic;
+	font-family: 'Langar', cursive;
+}
+
+.menuConEnlaces
+{
+	z-index: 1;
+	text-align: center;
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	display:inline;
+	font-size: 150%;
+	background-color: #76c1ff;
+	font-weight: 150;
+}
+
+.botonMenuElegido
+{
+	z-index: 1;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	background-color: #ffffff;
+	color: #050505;
+}
+
+.botonMenu
+{
+	z-index: 1;
+	padding-left: 1vh;
+	padding-right: 1vh;
+	background-color: #034591;
+	color: #ffffff;
+}
+
+.filtradorArticulos
+{
+	text-align: center;
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+.articulo 
+{
+	display: inline;
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+	
+.tituloArticulo
+{
+	text-align: center;
+}
+
+.imagenArticulo
+{
+	max-width: 20vh;
+	max-height: 20vh;
+	text-align: center;
+}
+
+.selectorPagina
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.botonSubir
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.bannerPublicidad
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+
+.avisoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+	text-align: center;
+}
+
+.imgAvisoProx
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+.textoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloTabla
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.preciosMayoristas
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloContacto
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+
+.formularioContacto
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+body {
+	/*imagen de fondo
+	background-image: 
+	url("https://previews.123rf.com/images/bettystrange/bettystrange1612/bettystrange161200005/67497246-limpieza-sin-patr%C3%B3n-limpieza-interminable-de-fondo-textura-papel-tapiz-ilustraci%C3%B3n-vectorial.jpg");
+	*/
+	background-color: #9dd3ff;
+	font-family: "Raleway", sans-serif;
+	font-weight: 10;
+}
+
+
