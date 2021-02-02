@@ -1,0 +1,206 @@
+.tituloBurbujas
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	text-align: center;
+	color: #000000;
+	background-color: #76c1ff;
+	font-size: 150%;
+	font-style: italic;
+	font-family: 'Langar', cursive;
+}
+
+.menuConEnlaces
+{
+	
+
+
+	vertical-align: center;
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	display:block;
+	float: none;
+	font-size: 150%;
+	background-color: #76c1ff;
+	font-weight: 150;
+	position: relative;
+	top: 0;
+	left: 0;
+	transform: none;
+}
+
+.botonMenuElegido
+{
+	z-index: 1;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	background-color: #56a8f5;
+	color: #050505;
+}
+
+.botonMenu
+{
+	z-index: 1;
+	padding-left: 1vh;
+	padding-right: 1vh;
+	background-color: #034591;
+	color: #ffffff;
+}
+
+.filtradorArticulos
+{
+	text-align: center;
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+.articulo 
+{
+	padding-left: 4vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	padding-right: 4vh;
+	margin-left: 1vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	margin-right: 1vh;
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg");
+	display: inline-block;
+	box-shadow: #050505;
+	overflow: auto;
+	border: 2px solid #034591;
+
+}
+	
+.tituloArticulo
+{
+	text-align: center;
+}
+
+.imagenArticulo
+{
+	max-width: 20vh;
+	max-height: 17vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.textoImgIlustrativa
+{
+	text-align: center;
+}
+
+.botonDetalles
+{
+	text-align: center;
+
+	font-weight: bold;
+
+
+
+}
+
+.selectorPagina
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.botonSubir
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.bannerPublicidad
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+
+.avisoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+	text-align: center;
+}
+
+.imgAvisoProx
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+.textoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloTabla
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.preciosMayoristas
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloContacto
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+
+.formularioContacto
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+body {
+	/*imagen de fondo, para setear el fondo de los articulos funciona pero aca nose xq*/
+	background-image: url("https://img.freepik.com/foto-gratis/concepto-servicio-limpieza-colorido-set-limpieza-diferentes-superficies-cocina-bano-otras-habitaciones-vista-superior-fondo_126783-1.jpg") #76c1ff;
+
+	font-family: "Raleway", sans-serif;
+	font-weight: 10;
+}
+
+
