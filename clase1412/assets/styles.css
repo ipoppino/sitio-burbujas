@@ -1,0 +1,48 @@
+.color burbujas {
+	color: #008cff;
+}
+
+.color lila {
+	color:rgb(162, 0, 255)
+}
+
+.color selectora {
+	color:royalblue
+}
+
+titulopagina {
+	color: burbujas
+}
+
+h3 {
+	text-align: center;
+	color: #000000;
+}
+
+h4 {
+	text-align: center;
+	background-color:#87b7ec;
+	color:#2f004b
+	
+
+}
+
+body {
+	background-image: url("https://previews.123rf.com/images/bettystrange/bettystrange1612/bettystrange161200005/67497246-limpieza-sin-patr%C3%B3n-limpieza-interminable-de-fondo-textura-papel-tapiz-ilustraci%C3%B3n-vectorial.jpg");
+	background-color: #76c1ff;
+	
+}
+
+h1 {
+	color: #008cff;
+	background-color: #000000;
+}
+
+br {
+	background-color: #76c1ff;
+}
+
+br.articulos {
+	background-color: #76c1ff;
+}
+
