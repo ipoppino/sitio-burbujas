@@ -1,0 +1,443 @@
+.tituloBurbujas
+{
+	display: grid;
+	grid-template-columns: 50vh;
+	grid-template-rows: 3vh;
+	/*grid-template-areas: tituloBurbujas;
+	grid-area: header;
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+	color: #2d7ba8;
+	background-color: #76c1ff;*/
+	font-size: 15px;
+	font-style: italic;
+	font-family: 'Langar', cursive;
+	height: 3vh;
+	margin-bottom: 1vh;
+	margin-right:5vh;
+	margin-left: autovh;
+	width: 50vh;
+	border: 1px double #000000;
+	transform: skewX(-15deg);
+	text-align: center;
+
+}
+
+.tituloSitio
+{
+	text-align: start;
+}
+
+.dropdown
+{
+	align-content: flex-end;
+	
+}
+
+.alert-primary
+{
+	font-family: 'Langar', cursive;
+	font-weight: 10;
+	text-align: center;
+}
+
+.carousel-slide
+{
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	margin-left: 20vh;
+	margin-right: 20vh;
+	height: 40vh;
+	width: 6vh;
+
+}
+
+.carruselProductos
+{
+	width: 10px;
+}
+
+
+
+.menuPagina a
+{
+	display: block;
+	margin-top: -1vh;
+	margin-left: 60vh;
+
+}
+
+.menuConEnlaces
+{
+	display:grid;
+	grid-template-columns: 15vh 15vh 15vh 15vh 15vh;
+	grid-template-rows: 3vh;
+	grid-template-areas: menuConEnlaces;
+	grid-area: nav;
+	column-gap: 1vh;
+	justify-content: center;
+	/*flex-direction: row;
+	
+	height: 3vh;
+	margin-bottom: 1vh;*/	
+	transform: skewX(-15deg);
+	font-size: 125%;
+	/*background-color: #76c1ff;
+	border: 1px double #000000;*/
+	font-weight: 100;
+	margin-left: 45vh;
+	margin-right: 45vh;
+	
+}
+
+.botonMenuElegido
+{
+	background-color: #8cc8ff;
+	color: #ffffff;
+	/*transform:scaley(1.5);*/
+}
+
+.botonMenuElegido:hover
+{
+	background-color: #8cc8ff;
+	color: #ffffff;
+}
+
+.botonMenu:hover
+{
+	background-color: #8cc8ff;
+	color: #ffffff;
+	transform:scaley(1.5);
+	transition: all 100ms linear;
+}
+
+.botonMenu
+{
+	background-color: #034591;
+	color: #ffffff;
+}
+
+.filtradorArticulos
+{
+	display: flex;
+	
+	height: 2vh;
+	
+	justify-content: center;
+	
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	
+}
+
+.boxArticulos
+{
+	display: grid;
+	grid-template-columns: 25vh 25vh 25vh;
+	grid-template-rows: repeat(7 26vh 26vh 26vh);
+	grid-template-areas: boxArticulos;
+	grid-area: main;
+	row-gap: -1vh;
+	column-gap: 1vh;
+	
+	
+	margin-left: 40vh;
+	margin-right: 25vh;
+	margin-bottom: 5vh;
+	max-width: 1100px;
+	display: flex;
+	flex-direction: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-between;
+	flex-grow: inherit;
+	margin-bottom: 1vh;
+	overflow: auto;
+	margin-top: 1vh;
+	height: 70vh;
+	
+	
+}
+
+.card-deck
+{
+	margin-left: 5vh;
+	margin-right: 5vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	/*height: 400px;
+	width: 200px;
+	overflow: scroll;
+	padding-right: 20vh;
+	padding-left: 20vh;
+	padding-top: 200px;
+	padding-bottom: 200px;*/
+}
+
+.card-title
+{
+	/*height: 200px;
+	width: 200px;*/
+}
+
+
+.row
+{
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+	margin-left: 20vh;
+	margin-right: 20vh;
+}
+
+.articulo 
+{
+	
+	width: 25vh;
+	height: 26vh;
+	background-image: url("https://i.pinimg.com/474x/fb/22/e0/fb22e01bbff3f7a5883844d5c87ad00d.jpg");
+	max-width: 25vh;
+	max-height: 26vh;
+	margin-bottom: 3vh;
+	margin-top: 1vh;
+	
+	box-shadow: #050505;
+	justify-content: center;
+	border: 2px solid #034591;
+	
+}
+	
+.articulo:hover 
+{
+	
+	width: 25vh;
+	height: 26vh;
+	background-image: url("https://i.pinimg.com/474x/fb/22/e0/fb22e01bbff3f7a5883844d5c87ad00d.jpg");
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	
+	box-shadow: #050505;
+	justify-content: center;
+	border: 2px solid #034591;
+
+	transform:scale(1.05);
+	transition: all 400ms linear;
+}
+
+.tituloArticulo
+{
+	margin-top: 1vh;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.imagenArticulo
+{
+	max-width: 15vh;
+	max-height: 15vh;
+	margin-top: 1vh;
+	margin-left: 6vh;
+	margin-right: 6vh;
+	margin-bottom: 1vh;
+	width: 50%;
+	clip-path: circle(50%);
+}
+
+.textoImgIlustrativa
+{
+	text-align: center;
+	
+	margin-bottom: 1vh;
+}
+
+.botonDetalles
+{
+	text-align: center;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	font-weight: bold;
+}
+
+/*.bannerLateral
+{
+	display: grid;
+	grid-template-columns: 10vh;
+	grid-template-rows: 70vh;
+	grid-template-areas: bannerLateral;
+	grid-area: aside;
+	margin-top: 10vh;
+	margin-bottom: 80vh;
+	margin-left: 75vh;
+
+}*/
+
+.fondoPagina
+{
+	display: grid;
+	grid-template-columns: 75vh;
+	grid-template-rows: 3vh;
+	/*background-image: url("https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg");*/
+	background-color:  #76c1ff;
+	border: 1px solid #034591;
+	margin-top: 1vh;
+	text-align: auto;
+	justify-content: center;
+	margin-left: 30vh;
+	margin-right: 30vh;
+	margin-bottom: 1vh;
+
+}
+
+.botonSubirSolo
+{
+	/*margin-bottom: 0vh;
+	margin-top: 0vh;
+	margin-left: 32vh;*/
+	
+}
+
+
+
+.alert-primary
+{
+	/*height: 5vh;*/
+	
+}
+
+.botonSubir
+{
+	margin-bottom: 1vh;
+	margin-top: -7vh;
+	margin-right: 42vh;
+	
+}	
+
+
+
+.selectorPagina
+{	
+	
+	margin-bottom: 3vh;
+	margin-top: -2.5vh;
+	margin-left: 10vh;
+}
+
+.boxPublicidad
+{
+	display: grid;
+	grid-template-columns: 75vh;
+	grid-template-rows: 5vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	border: 2px solid #034591;
+	justify-content: center;
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg");
+}
+
+.alert alert-warning
+{
+	height: 1vh;
+}
+
+.bannerPublicidad
+{
+	text-align: center;
+	/*margin-top: 1vh;
+	margin-left: 22vh;
+	margin-right: auto;*/
+	margin-bottom: 1vh;
+}	
+
+.alert-success
+{
+	margin-bottom: -1vh;
+}
+
+.avisoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	
+	text-align: center;
+}
+
+.imgAvisoProx
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+.textoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloTabla
+{
+	margin-left: 30vh;
+	margin-right: 30vh;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	text-align: center;
+	background:   #76c1ff;
+	border: 1px solid #034591;
+	font-weight: 25px;
+
+}
+
+.preciosMayoristas
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloContacto
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 0vh;
+	text-align: center;
+}
+
+.formularioContacto
+{
+	padding-left: 10vh;
+	padding-right: 10vh;
+}
+
+.table-primary
+{
+	padding-left: 30vh;
+	padding-right: 30vh;
+}
+
+body 
+{
+	/*imagen de fondo, para setear el fondo de los articulos funciona pero aca nose xq*/
+	background-image: url("https://img.freepik.com/foto-gratis/concepto-servicio-limpieza-colorido-set-limpieza-diferentes-superficies-cocina-bano-otras-habitaciones-vista-superior-fondo_126783-1.jpg") #76c1ff;
+
+	font-family: "Raleway", sans-serif;
+	font-weight: 10;
+
+	
+	margin: auto;
+	padding-right: 1vh;
+	padding-left: 1vh;
+
+}
+
+
