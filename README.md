@@ -1,7 +1,7 @@
 # sitio-burbujas
 Proyecto para el curso de desarrollo web frontend
 
-Branch:
+Branch/Rama:
 
 1_ Clases: Actualizaciones del sitio segun el contenido dado en las clases
 
