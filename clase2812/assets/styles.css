@@ -1,0 +1,308 @@
+.tituloBurbujas
+{
+	display: grid;
+	grid-template-columns: 75vh;
+	grid-template-rows: 3vh;
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;*/
+	justify-content: space-evenly;
+	text-align: center;
+	color: #2d7ba8;
+	background-color: #76c1ff;
+	font-size: 150%;
+	font-style: italic;
+	font-family: 'Langar', cursive;
+	height: 3vh;
+	margin-bottom: 1vh;
+	border: 1px double #000000;
+	transform: skewX(-15deg);
+}
+
+.menuConEnlaces
+{
+	display:grid;
+	grid-template-columns: 15vh 15vh 15vh 15vh 15vh;
+	grid-template-rows: 3vh;
+	column-gap: 1vh;
+	justify-content: center;
+	/*flex-direction: row;
+	
+	height: 3vh;
+	margin-bottom: 1vh;*/	
+	transform: skewX(-15deg);
+	font-size: 125%;
+	background-color: #76c1ff;
+	font-weight: 100;
+	
+	border: 1px double #000000;
+}
+
+.botonMenuElegido
+{
+	background-color: #e8f4ff;
+	color: #050505;
+	transform:scaley(1.5);
+}
+
+.botonMenuElegido:hover
+{
+	background-color: #e8f4ff;
+	color: #050505;
+}
+
+.botonMenu:hover
+{
+	background-color: #e8f4ff;
+	color: #050505;
+	transform:scaley(1.5);
+	transition: all 100ms linear;
+}
+
+.botonMenu
+{
+	background-color: #034591;
+	color: #ffffff;
+}
+
+.filtradorArticulos
+{
+	display: flex;
+	
+	height: 2vh;
+	
+	justify-content: center;
+	
+	
+	margin-top: 2vh;
+	
+}
+
+.boxArticulos
+{
+	display: grid;
+	grid-template-columns: 25vh 25vh 25vh;
+	grid-template-rows: repeat(7 26vh 26vh 26vh);
+	/*row-gap: 1vh;*/
+	column-gap: 1vh;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+	/*display: flex;
+	flex-direction: flex;
+	flex-wrap: wrap;*/
+	justify-content: center;
+	align-items: stretch;
+	align-content: space-between;
+	/*flex-grow: inherit;
+	margin-bottom: 1vh;*/
+	overflow: scroll;
+	margin-top: 1vh;
+	height: 75vh;
+	
+	
+}
+
+.articulo 
+{
+	
+	width: 25vh;
+	height: 26vh;
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg");
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	
+	box-shadow: #050505;
+	justify-content: center;
+	border: 2px solid #034591;
+	
+}
+	
+.articulo:hover 
+{
+	
+	width: 25vh;
+	height: 26vh;
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg");
+	margin-bottom: 1vh;
+	margin-top: 1vh;
+	
+	box-shadow: #050505;
+	justify-content: center;
+	border: 2px solid #034591;
+
+	transform:scale(1.05);
+	transition: all 400ms linear;
+}
+
+.tituloArticulo
+{
+	margin-top: 1vh;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.imagenArticulo
+{
+	max-width: 15vh;
+	max-height: 15vh;
+	margin-top: 1vh;
+	margin-left: 6vh;
+	margin-right: 6vh;
+	margin-bottom: 1vh;
+	width: 50%;
+}
+
+.textoImgIlustrativa
+{
+	text-align: center;
+	
+	margin-bottom: 1vh;
+}
+
+.botonDetalles
+{
+	text-align: center;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	font-weight: bold;
+}
+
+.fondoPagina
+{
+	display: grid;
+	grid-template-columns: 75vh;
+	grid-template-rows: 2vh;
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg");
+	border: 2px solid #034591;
+	margin-top: 1vh;
+	/*text-align: justify;*/
+	justify-content: center;
+}
+
+.botonSubir
+{
+	margin-bottom: 1vh;
+	
+	margin-left: 22vh;
+}	
+
+.selectorPagina
+{	
+	margin-left: 42vh;
+	margin-bottom: 2vh;
+	margin-top: -1vh;
+}
+
+.boxPublicidad
+{
+	display: grid;
+	grid-template-columns: 75vh;
+	grid-template-rows: 3vh;
+	margin-top: 1vh;
+	margin-bottom: -2vh;
+	border: 2px solid #034591;
+	justify-content: center;
+	background-image: url("https://img.freepik.com/vector-gratis/fondo-elegante-textura-blanca_23-2148438405.jpg");
+}
+
+.bannerPublicidad
+{
+	text-align: center;
+	margin-top: 1vh;
+	margin-left: 22vh;
+	margin-right: auto;
+	
+}	
+
+.avisoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	
+	text-align: center;
+}
+
+.imgAvisoProx
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 1vh;
+}
+
+.textoProximamente
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloTabla
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.preciosMayoristas
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+.tituloContacto
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+
+.formularioContacto
+{
+	margin-left: 1vh;
+	margin-right: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+body 
+{
+	/*imagen de fondo, para setear el fondo de los articulos funciona pero aca nose xq*/
+	background-image: url("https://img.freepik.com/foto-gratis/concepto-servicio-limpieza-colorido-set-limpieza-diferentes-superficies-cocina-bano-otras-habitaciones-vista-superior-fondo_126783-1.jpg") #76c1ff;
+
+	font-family: "Raleway", sans-serif;
+	font-weight: 10;
+
+	
+	margin: auto;
+	padding-right: 1vh;
+	padding-left: 1vh;
+
+	grid-template-areas: 
+	{
+		"tituloBurbujas tituloBurbujas tituloBurbujas"
+		"menuConEnlaces menuConEnlaces menuConEnlaces"
+		"filtradorArticulos filtradorArticulos filtradorArticulos"
+		"boxArticulo boxArticulo boxArticulo"
+		"boxArticulo boxArticulo boxArticulo"
+		"boxArticulo boxArticulo boxArticulo"
+		"fondoPagina fondoPagina fondoPagina"
+		"boxPublicidad boxPublicidad boxPublicidad"
+	}
+
+}
+
+
